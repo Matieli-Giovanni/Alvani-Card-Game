@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Alvani Card Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+</head>
+
+<body>    
+    <main>
+        <div class="imagem-topo">
+            <img src="./src/imagens/fundo/Alvani.png" alt="">            
+        </div>        
+        <div class="imagem-fundo">
+            <img src="./src/imagens/fundo/A C G.png" alt="alvani card game">
+        </div>
+        <div class="conteudo">
+            <div class="botoes-tipos">
+                <button class="botao selecionado">
+                    <img src="./src/imagens/botoes/home.png" alt="" width="43px" height="43px">
+                </button>
+                <button class="botao">
+                    <img src="./src/imagens/botoes/agua.png" alt="" width="43px" height="43px">
+                </button>
+                <button class="botao">
+                    <img src="./src/imagens/botoes/ar.png" alt="" width="43px" height="43px">
+                </button>
+                <button class="botao">
+                    <img src="./src/imagens/botoes/fogo.png" alt="" width="43px" height="43px">
+                </button>
+                <button class="botao">
+                    <img src="./src/imagens/botoes/raio.png" alt="" width="43px" height="43px">
+                </button>
+                <button class="botao">
+                    <img src="./src/imagens/botoes/terra.png" alt="" width="43px" height="43px">
+                </button>
+            </div>
+            <div class="informacoes ativa">
+
+                <h1>BEM VINDOS A ALVANI!</h1>
+                <div class="imagem-intro">
+                    <img src="./src/imagens/fundo/intro.png" alt="">
+                </div>
+                <p> Esse projeto é sobre um jogo de cartas feito com meus OCs, ou "Original Characters", para quem não
+                    está familiarizado com o termo. Eu cheguei a começar o jogo, mas dei uma pausa para estudar. Aqui eu
+                    pretendo falar sobre Alvani e seus habitantes.</p>
+                <p> Alvani se trata de um mundo semelhante a Terra, mas nesse universo alternativo, os
+                    cientistas descobriram partículas com propriedades mágicas. Como já era de se esperar, começaram a
+                    usá-las na fabricação de armas e, posteriormente, para a criação de super humanos capazes de usar
+                    magia, que mais tarde viriam a serem conhecidos como "Magimals", algo como "Animais Mágicos". Porém,
+                    em uma dessas experiências, o resultado foi o surgimento de uma criatura incontrolável. Esta foi
+                    denominada "Chaos" devido ao seu comportamento caótico.</p>
+                <p> A lore do jogo se passa 500 anos depois da criação do primeiro Magimal e Chaos,
+                    onde os humanos ainda estão se adaptando a uma vida ao lado dos descendentes dessas criaturas.</p>
+                <p> Ao clicar nos botões acima, teremos mais informações sobre alguns dos personagens
+                    do jogo.</p>
+                <ul>EXPRESSÕES E SIGLAS COMUMENTE USADAS                    
+                    <li>MAGIMAL</li>
+                    <p>Super humanos originalmente criados em laboratório, usando genes de animais e partículas mágicas,
+                    mas são capazes de gerar descendentes de forma natural. Atualmente a única Magimal criada em
+                    laboratório ainda viva é Lina.</p>
+                    <li>CHAOS</li>
+                    <P>Foi uma tentativa de melhorar os Magimals, combinando partículas diferentes, porém isso causou
+                        uma mutação genética e os deixou completamente agressivos. Amelia foi o primeiro Chaos a
+                        conseguir se controlar, mas preferiu se isolar do restante do mundo para evitar novas confusões,
+                        porém seus descendentes podem aparecer em meio a sociedade em um ou outro lugar.</P>
+                    <li>D.P.A.</li>
+                    <p>Trata-se da Delegacia Policial de Alvani, Fundada por Vander. Seu objetivo é manter a paz no
+                        mundo, contando com agentes nos mais variados lugares. Recentemente começaram a aparecer
+                        estranhas fissuras carregadas de energia do Chaos, que alteram a biodiversidade local, com isso
+                        os agentes estudam as fissuras para tentar encontrar um padrão (ou um culpado).</p>
+                </ul>
+                <button><a href="#top">Voltar ao topo</a></button>
+
+            </div>
+
+            <div class="informacoes">
+                <ul>TIPO ÁGUA/GELO
+                    
+                    <li><a href="#personagem-0">Alec</a></li>
+                    <li><a href="#personagem-1">August</a></li>
+                    <li><a href="#personagem-2">Gustav</a></li>
+                    <li><a href="#personagem-3">Hisei</a></li>
+                    <li><a href="#personagem-4">Leona</a></li>
+                    <li><a href="#personagem-5">Letty</a></li>
+                    <li><a href="#personagem-6">Miguel</a></li>
+                    <li><a href="#personagem-7">Shinobu</a></li>
+                </ul>
+                <div class="personagem" id="personagem-0">
+                    <img src="./src/imagens/personagens/agua/Alec.png" alt="">
+                    <h1>Alec</h1>
+                    <p> É considerado o mago de gelo mais poderoso atualmente, mas nem sempre foi assim. Antes dele
+                        despertar seus poderes, era uma pessoa insegura sobre si e acreditava que nunca seria tão bom
+                        quanto os competidores da Arena. Isso muda depois que Vander lhe entrega o "Cajado do Zero
+                        Absoluto" e fala sobre sua antepassada Anne, uma maga de gelo que não apenas se tornou rainha,
+                        mas também foi a responsável pela criação dos Magimals. Com isso, Alec decide honrar o nome de
+                        sua família e começa a treinar. Atualmente resolveu desafiar a Arena e provou que seu título não
+                        é um exagero, pois ele e Sandy estão sempre competindo pelo título de "Campeão da Arena"</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-1">
+                    <img src="./src/imagens/personagens/agua/August.png" alt="">
+                    <h1>August</h1>
+                    <p>Um cientista que usa seus conhecimentos para o mal. Seu objetivo é tomar posse da tecnologia
+                        descoberta por Julia, que fez com que a cidade de Great Field prosperasse. Para isso, ele criou
+                        androides especializadas em guerra: as War Maiden (conhecidas pela sigla WM), porém seus planos
+                        sempre são frustrados pelos "Grandes Heróis de Great Field". A sua criação mais poderosa é a WM
+                        27, apelidada como Nina por ele.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-2">
+                    <img src="./src/imagens/personagens/agua/Gustav.png" alt="">
+                    <h1>Gustav</h1>
+                    <p>Um garoto com um grande talento para invenções, que vão desde uma simples bombinha até veículos
+                        espaciais (ainda em desenvolvimento). Claro que isso chamou a atenção da nossa cientista de
+                        Great Field, Julia, que o convidou para ajudá-la a criar mecanismos de defesa para a cidade e,
+                        mais tarde, compor o grupo dos "Grandes Herois de GF", junto com Rick e Johan. Também foi o
+                        responsável por projetar o traje que os herois usariam. Apesar de ser ágil, prefere um combate
+                        mais tático, analisando o movimento de seus inimigos e usando suas invenções como armadilhas.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-3">
+                    <img src="./src/imagens/personagens/agua/Hisei.png" alt="">
+                    <h1>Hisei</h1>
+                    <p>Membro da DPA , é um habilidoso espadachim de gelo. Desde criança já treinava com seu avô algumas
+                        táticas de combate, porém um dia uma estranha fissura carregada de energia do Chaos surgiu,
+                        exatamente onde seria o próximo treinamento. Quando Hisei chegou, já era tarde demais. Como Pyro
+                        estava no local, quis culpá-lo primeiro, mas se deu conta de que não estava sendo justo. Então
+                        para evitar que outras tragédias como essa acontecessem, entrou para a divisão de investigação
+                        sob o juramento de proteger os inocentes dos efeitos da energia, ainda misteriosa para os
+                        habitantes desse mundo.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-4">
+                    <img src="./src/imagens/personagens/agua/Leona.png" alt="">
+                    <h1>Leona</h1>
+                    <p>Filha do Rei de Karifua, Leo, mas não quer ser chamada de princesa, pois sua crença é de todos
+                        são iguais em termos de importância. Desde pequena, sempre visitava as aldeias do reino para ver
+                        de perto as necessidades de seu povo. Mais tarde, entrou para a guarda real, onde despertou sua
+                        magia de água e, algum tempo depois, se tornou a capitã da guarda. No começo tinha receio de
+                        aproximar-se dos humanos, mas após conhecer Magimals que faziam parte da DPA, hoje tem uma visão
+                        diferente.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-5">
+                    <img src="./src/imagens/personagens/agua/Letty.png" alt="">
+                    <h1>Capitã Letty</h1>
+                    <p>Desde criança, seu sonho era ser uma capitã pirata e sair viajando pelo mundo. Apesar de estar
+                        determinada a realizá-lo, ninguém acreditava que ela teria essa capacidade. Esse sonho só virou
+                        realidade após ela conhecer Matt, que não só a incentivou como lhe apresentou o "Tridente de
+                        Poseidon", uma arma capaz de gerar magias poderosas de água (e bancou o navio também).
+                        Atualmente sua tripulação tem um total de cinco pessoas, mas que valem por um exército.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-6">
+                    <img src="./src/imagens/personagens/agua/Miguel.png" alt="">
+                    <h1>Miguel</h1>
+                    <p> Miguel é um garoto que quer criar um grupo de herois. Para isso, decidiu criar a guilda "Escudo
+                        da Justiça", mas ninguém demonstrou interesse em participar dela. Eis que um dia ele descobre um
+                        laboratório com uma Magimal adormecida dentro de uma das máquinas. Miguel consegue despertá-la
+                        e, apesar dela parecer um pouco confusa e estar com as memórias comprometidas, eles se tornam
+                        grandes amigos e ela entra para a guilda.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-7">
+                    <img src="./src/imagens/personagens/agua/Shinobu.png" alt="">
+                    <h1>Shinobu</h1>
+                    <p>Uma garota bem alegre e extrovertida, viajou até Great Field após ouvir sobre a Academia "Ninjas
+                        do Sol". No começo tem uma certa dificuldade para aprender as técnicas, mas vendo sua
+                        determinação, Rick decide ajudá-la. Sustenta uma rivalidade amigável com Angelica, onde estão
+                        sempre competindo para ver quem é mais forte. Atualmente ajuda a proteger a cidade enquanto os
+                        Grandes Herois de GF estão em outra missão, ao lado de Julia e Ichigo.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+            </div>
+            <div class="informacoes">
+                <ul>TIPO AR                    
+                    <li><a href="#personagem-8">Aki</a></li>
+                    <li><a href="#personagem-9">Birdie</a></li>
+                    <li><a href="#personagem-10">BRM 15 "Ichigo"</a></li>
+                    <li><a href="#personagem-11">Elly</a></li>
+                    <li><a href="#personagem-12">Fudora</a></li>
+                    <li><a href="#personagem-13">Lina</a></li>
+                    <li><a href="#personagem-14">Mortis</a></li>
+                    <li><a href="#personagem-15">"Phantom" X</a></li>
+                </ul>
+
+                <div class="personagem" id="personagem-8">
+                    <img src="./src/imagens/personagens/ar/Aki.png" alt="">
+                    <h1>Aki</h1>
+                    <p>Aki perdeu seus pais muito cedo, então foi criada nas ruas de Kanto. Um dia, enquanto pedia
+                        comida para quem passava na rua, encontrou-se com Natsumi, uma empresária no ramo da música,
+                        esta viu um potencial naquela garotinha sem teto e decidiu fazer uma audição ali mesmo. Após
+                        cantar e até mesmo improvisar um dueto com Haruka, filha da empresária, foi aprovada e adotada
+                        pela mesma. As irmãs cresceram e agora fazem parte de uma banda chamada "The Rockers".</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-9">
+                    <img src="./src/imagens/personagens/ar/Birdie.png" alt="">
+                    <h1>Birdie</h1>
+                    <p>Faz parte de uma filial da DPA situada no continente de Koga, onde quase todos os integrantes são
+                        Magimals. Além de ajudar nas investigações das fissuras, também protege a biodiversidade local,
+                        patrulhando a área. Numa dessas patrulhas, conhece Taika e Fudora, ela queria que as duas
+                        entrassem para a DPA também, mas parece que uma delas não está a fim por problemas no passado.
+                        Porém Birdie não desistiu e atualmente ainda tenta convencê-las.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-10">
+                    <img src="./src/imagens/personagens/ar/BRM 15 Ichigo.png" alt="">
+                    <h1>BRM 15 "Ichigo"</h1>
+                    <p>Uma androide criada por Julia. Inicialmente sua função era de ser um mordomo, mas com a ameaça de
+                        August e o surgimento das War Maiden, foram feitas modificações para que pudesse lutar também.
+                        Programada com uma poderosa IA, Ichigo consegue ajudar Johan a bolar estratégias e auxiliar os
+                        herois durante as lutas. Sustenta uma rivalidade com Nina, androide criada por August.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-11">
+                    <img src="./src/imagens/personagens/ar/Elly.png" alt="">
+                    <h1>Elly</h1>
+                    <p>Elly faz parte da Divisão de Investigação da DPA, junto com Hisei e Eeve. Já participou de
+                        guerras no passado e uma delas custou sua visão. A adaptação foi difícil no começo, mas graças à
+                        ajuda de um Magimal, conseguiu adaptar sua magia de ar a ponto de criar uma espécie de radar em
+                        torno de si. Com isso, mesmo que ela não consiga ver o inimigo, ainda consegue sentí-lo a uma
+                        distância razoável. Além disso, seu domínio sobre o ar é tão bom que pode usá-lo para ampliar o
+                        corte de suas "Lâminas Gêmeas", sendo capaz de cortar coisas que estão bem distantes.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-12">
+                    <img src="./src/imagens/personagens/ar/Fudora.png" alt="">
+                    <h1>Fudora</h1>
+                    <p>Habilidosa guerreira que tentou entrar para a guarda real de Karifua, mas o comandante daquela
+                        época almejava a exterminação da raça humana, então Fudora desistiu, pois era contra essa ideia.
+                        Decidiu defender uma selva um pouco longe dali, onde conheceu e adotou Taika, que havia perdido
+                        os pais e estava sendo criada por um tigre fêmea. Com o tempo ela aprendeu a andar e pronunciar
+                        algumas frases. O laço entre elas se tornou tão forte que atualmente são como uma verdadeira
+                        família.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-13">
+                    <img src="./src/imagens/personagens/ar/Lina.png" alt="">
+                    <h1>Lina</h1>
+                    <p> Lina foi a primeira Super humana criada com sucesso, contendo genes de alguns animais e
+                        partículas mágicas misturados, com isso originou o termo "Magimal". Apesar de ser uma garota
+                        tranquila na maior parte do tempo, às vezes seus instintos saem do controle, a tornando
+                        temporariamente selvagem. Após ser gravemente ferida durante o incidente do Chaos, ela ficou
+                        adormecida por 500 anos no laboratório, sendo despertada por Miguel.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-14">
+                    <img src="./src/imagens/personagens/ar/Mortis.png" alt="">
+                    <h1>Mortis</h1>
+                    <p>Um dos poucos híbridos de Chaos e Humano, nasceu com aparência humana, mas com poder de
+                        necromancia, capaz de ressuscitar os mortos. Por conta disso, ninguém teve coragem de se
+                        aproximar dele, fazendo com que ficasse solitário. Para não sucumbir à solidão, decide ir a um
+                        lugar isolado e usa seus poderes para criar uma cidade inteira com mortos-vivos. Certo dia, uma
+                        garota chamada Maya entra na cidade e começa a fazer amizade com o povo de lá. Vendo isso, ele
+                        tenta se aproximar, mas tem medo da reação dela. Percebendo o que estava acontecendo, Kiku, uma
+                        zumbi, armou um encontro para os dois e deu certo. Atualmente ambos vivem na cidade dos
+                        mortos-vivos.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-15">
+                    <img src="./src/imagens/personagens/ar/Phantom X.png" alt="">
+                    <h1>"Fantasma" X</h1>
+                    <p>Um ser misterioso ganhou o apelido de "Fantasma" por sempre agir em locais com pouca
+                        luminosidade. Testemunhas relataram que sua aparência é quase idêntica a de Seiko. Após uma
+                        série de confusões e
+                        desentendimentos, o próprio resolve tomar uma atitude e vai ao seu encontro, onde ambos acabam
+                        lutando, mas X acaba perdendo. Este acaba revelando que veio de um lugar distante e sua
+                        aparência é resultado do seu poder de metamorfose, podendo se parecer com quem (ou o que)
+                        quiser, porém preferiu escolher a aparência de Seiko após ver que era uma pessoa bem respeitada
+                        na cidade. Impressionado com as habilidades de X (e a fim de lhe dar o devido respeito),
+                        resolveu que este cuidaria da cidade quando precisasse atender às missões da DPA.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+
+
+
+            </div>
+            <div class="informacoes">
+                <ul>TIPO FOGO                    
+                    <li><a href="#personagem-16">Amelia</a></li>
+                    <li><a href="#personagem-17">Dokan</a></li>
+                    <li><a href="#personagem-18">Hyouga</a></li>
+                    <li><a href="#personagem-19">Johnny</a></li>
+                    <li><a href="#personagem-20">Pyro</a></li>
+                    <li><a href="#personagem-21">Rick</a></li>
+                    <li><a href="#personagem-22">Seiko</a></li>
+                    <li><a href="#personagem-23">WM 27 "Nina"</a></li>
+                </ul>
+                <div class="personagem" id="personagem-16">
+                    <img src="./src/imagens/personagens/fogo/Amelia.png" alt="">
+                    <h1>Amelia</h1>
+                    <p>Depois de perder tudo num atentado contra sua família, uma garota chamada Lina a encontra e ambas
+                        viram amigas. Porém os cientistas do laboratório se aproveitaram dessa amizade para fazer um
+                        experimento novo: um "Magimal melhorado". No começo não parece acontecer nada, entretanto mais
+                        tarde, naquele dia, os experimentos "fracassados" se revoltaram e começaram a atacar todos no
+                        laboratório, inclusive Lina, que acabou ficando gravemente ferida. Nesse momento ela desperta
+                        seu poder, liberando uma enorme quantidade de energia do Chaos, que atinge vários seres perto
+                        dela, tornando-a a primeira Chaos da história. Depois do surto, ela desaparece, levando aqueles
+                        que foram atingidos junto. Hoje vive com outros Chaos em uma ilha isolada e se tornou a Rainha
+                        do Chaos.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-17">
+                    <img src="./src/imagens/personagens/fogo/Dokan.png" alt="">
+                    <h1>Dokan</h1>
+                    <p>Um cara que busca um oponente forte para que, algum dia, possa lutar com todas as suas forças e
+                        sentir a sensação de chegar ao limite. Juntou-se à tripulação pirata da Capitã Letty para tornar
+                        seu objetivo mais fácil. Seu único defeito é não seguir a regra do "Derrotar sem matar", pois
+                        crê que apenas os fortes devem sobreviver. Graças a isso, volta e meia sua capitã discute sobre
+                        moral, mas infelizmente (ou será que não?) ele não dá a mínima atenção ao assunto. Será que ele
+                        se sentirá melhor ao lutar contra um Chaos?
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-18">
+                    <img src="./src/imagens/personagens/fogo/Hyouga.png" alt="">
+                    <h1>Hyouga</h1>
+                    <p>Hyouga nasceu em uma cidade que possui materiais muito valiosos para a indústria atual. Por isso
+                        é constantemente é invadida por pessoas de outras cidades para explorar as riquezas da região.
+                        Cansada de ver tanta guerra, ela decide entrar para o exército local, onde aprende esgrima e
+                        ganha suas próprias espadas, criadas pelo renomado cientista Dr. Berryan. O que nem ele e nem
+                        ela sabiam é que alguém as havia amaldiçoado. Isso causou um descontrole em Hyouga que fez com
+                        que ela matasse todos, sem exceção, naquele local. Este evento ficou conhecido como a "maldição
+                        da neve escarlate". A capitã Letty fica sabendo do ocorrido e oferece ajuda a Hyouga para
+                        procurar uma maneira de desfazer a maldição.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-19">
+                    <img src="./src/imagens/personagens/fogo/Johnny.png" alt="">
+                    <h1>Johnny</h1>
+                    <p>Faz parte da elite da DPA, denominada "Soul Warriors". É um especialista em manuseio de armas de
+                        fogo, com arsenais que vão desde um simples revólver até uma bazuca. Como se não fosse o
+                        suficiente, tem uma boa agilidade também, assim vários vilões tremem apenas em ouvir seu nome.
+                        Mas sua determinação está em provar que é mais eficiente que Kenshin, seu rival e, também,
+                        colega. Porém segundo Vander, essa richa ainda vai muito longe, pois ambos são muito eficientes
+                        no que fazem.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-20">
+                    <img src="./src/imagens/personagens/fogo/Pyro.png" alt="">
+                    <h1>Pyro</h1>
+                    <p>É uma pessoa que gosta de sentir a adrenalina da luta, mas prefere agir só. Consegue controlar
+                        com maestria espadas do elemento fogo, garantindo um lugar entre os "Soul Warriors". Durante o
+                        incidente das fissuras, se viu obrigado a lutar contra o avô de Hisei, que fora consumido pela
+                        energia do Chaos. Este, como já estava debilitado, não resistiu e acabou falecendo nos braços do
+                        espadachim. Depois de um mal-entendido com o neto, decidiu ajudá-lo no treinamento de esgrima.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-21">
+                    <img src="./src/imagens/personagens/fogo/Rick.png" alt="">
+                    <h1>Rick</h1>
+                    <p>Um prodígio das artes marciais, resolveu se especializar em ninjutsu ao conhecer os "Ninjas do
+                        Sol". Sua habilidade chamou a atenção de Julia, que o chamou para fazer parte dos "Grandes
+                        Herois de Great Field". Seu desempenho somado aos de Johan e Gustav também chamaram a atenção de
+                        Vander, comandante da DPA, que também pediu para eles investigarem as fissuras. Quando não pode
+                        ficar na cidade, deixa sua aluna, Shinobu, para protegê-la.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-22">
+                    <img src="./src/imagens/personagens/fogo/Seiko.png" alt="">
+                    <h1>Seiko</h1>
+                    <p>Nascido na pacata cidade de Ashes Town, sua vida muda após receber um aparelho que, a princípio,
+                        parecia um celular, mas na verdade era a espada "Portal das Chamas". Após treinar por um tempo,
+                        decidiu defender a cidade com suas novas habilidades, as quais chamaram atenção de Vander, que o
+                        convidou para ajudar nos assuntos da DPA, e de uma criatura apelidada de "Fantasma" X, que quis
+                        se tornar igual a ele. Para atender aos pedidos da DPA, decidiu confiar a X a proteção da
+                        cidade.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-23">
+                    <img src="./src/imagens/personagens/fogo/WM 27 Nina.png" alt="">
+                    <h1>WM 27 "Nina"</h1>
+                    <p>Uma das várias androides criadas por August. Nina tem uma posição de destaque, pois foi criada
+                        para ser a líder das War Maiden, além de seu "cérebro" conter o modelo mais avançado de
+                        Inteligência Artificial do momento, permitindo tomar decisões por conta própria, desde que não
+                        violem as Leis da Robótica (August pode ser um cientista do mal, mas não louco). Foi programada
+                        para roubar a tecnologia desenvolvida por Julia, mas sempre esbarra em dois obstáculos: A
+                        androide BRM 15, criada para defender a dona da tecnologia e seu laboratório; e as próprias
+                        leis, pois caso a tecnologia seja removida, afetará todos que vivem na cidade.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+
+
+
+            </div>
+            <div class="informacoes">
+                <ul>TIPO RAIO                    
+                    <li><a href="#personagem-24">Arthur</a></li>
+                    <li><a href="#personagem-25">Eeve</a></li>
+                    <li><a href="#personagem-26">Johan</a></li>
+                    <li><a href="#personagem-27">Julia</a></li>
+                    <li><a href="#personagem-28">Kitty</a></li>
+                    <li><a href="#personagem-29">Morgana</a></li>
+                    <li><a href="#personagem-30">Sandy</a></li>
+                    <li><a href="#personagem-31">Vander</a></li>
+                </ul>
+                <div class="personagem" id="personagem-24">
+                    <img src="./src/imagens/personagens/raio/Arthur.png" alt="">
+                    <h1>Arthur</h1>
+                    <p>Foi um dos cientistas que participaram da criação dos Magimals e Chaos. Durante o incidente com
+                        os seres caóticos, foi atingido em cheio por uma rajada de energia emitida por Amelia. Isso lhe
+                        deu uma incrível longevidade e, também, domínio sobre tal energia. Com isso, decidiu mergulhar
+                        Alvani no caos, criando fissuras em vários lugares do mundo, alterando a biodiversidade local.
+                        Porém seus planos podem estar perto do fim, pois o "Bando Pirata da Capitã Letty" encontrou a
+                        ilha onde os Chaos estavam escondidos e, além disso, Amélia, sua rainha, também está
+                        investigando o caso.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-25">
+                    <img src="./src/imagens/personagens/raio/Eeve.png" alt="">
+                    <h1>Eeve</h1>
+                    <p>Uma humana que nasceu com poderes do Chaos, pois sua mãe foi afetada pela energia quando uma
+                        fissura surgiu em sua cidade natal. Tal poder não dava para ser controlado e resultou na
+                        destruição total da cidade quando tinha apenas 4 anos de idade. Depois disso, adotou o
+                        pseudônimo de Eeve (com pronúncia parecida com "evil"), justamente porque se considerava do mal,
+                        pelo que fez. Mas certo dia encontrou-se com Vander, membro da DPA, mesmo este sabendo do
+                        ocorrido, optou por não prendê-la. Ao invés disso, deu-lhe uma oportunidade de usar o poder para
+                        o bem e assim, proteger as pessoas dos verdadeiros vilões. Atualmente é a capitã da Divisão de
+                        Investigação, tendo Elly e Hisei como seus subordinados.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-26">
+                    <img src="./src/imagens/personagens/raio/Johan.png" alt="">
+                    <h1>Johan</h1>
+                    <p>Um cidadão de Great Field e, também, um dos quatro integrantes dos "Grandes Herois de GF"
+                        escolhidos por Julia para proteger a cidade. É um ótimo estrategista e quase sempre consegue
+                        antecipar as ações de seus
+                        adversários. Para lhe dar um melhor poder de combate, Julia criou um traje capaz de armazenar e
+                        descarregar eletricidade, mas como todo bom estrategista, ele usa apenas quando necessário. Após
+                        um tempo como heroi, encontra-se com Angelica, uma garota que despertou os poderes recentemente,
+                        mas não consegue controlar direito, então ele decide ajudá-la. Atualmente está ajudando no caso
+                        das fissuras junto com os outros membros do grupo, ao mesmo tempo que pensa numa solução para
+                        manter August longe enquanto estão fora.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-27">
+                    <img src="./src/imagens/personagens/raio/Julia.png" alt="">
+                    <h1>Julia</h1>
+                    <p>Filha do renomado cientista Dr. Berryan, resolveu seguir os passos do pai, fazendo pesquisas com
+                        as partículas mágicas. Após alguns anos de estudo, conseguiu criar uma tecnologia que foi capaz
+                        de fazer sua cidade natal, Great Field, prosperar. Porém isso chamou a atenção de um cientista
+                        do mal, August, que inclusive lhe ofereceu a proposta de trabalhar para ele, mas Julia recusou.
+                        A partir desse dia, ele vem tentando tomar a tecnologia a força, mas ela tem algumas cartas na
+                        manga,como os "Grandes Heróis de Great Field" e a Butler Robo-Maiden (Garota Robô Mordomo),
+                        conhecida pela sigla BRM15, ou Ichigo, como Julia prefere chamar.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-28">
+                    <img src="./src/imagens/personagens/raio/Kitty.png" alt="">
+                    <h1>Kitty</h1>
+                    <p>Uma Magimal felina curiosa e aventureira. Já chegou a fazer parte da guarda real do reino de
+                        Karifua, mas decidiu largar tudo para ir explorar o mundo. Durante sua viagem, conhece muitos
+                        heróis (e vilões), inclusive Lina, onde tenta ajudá-la a controlar seu "Modo Selvagem".
+                        Atualmente está na tripulação pirata da Capitã Letty, pois com ela ficou mais fácil acessar os
+                        lugares mais remotos de Alvani. Será que ela encontrará um grande tesouro?</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-29">
+                    <img src="./src/imagens/personagens/raio/Morgana.png" alt="">
+                    <h1>Morgana</h1>
+                    <p>Uma das cientistas que trabalhou nos experimentos que criaram os Magimals e Chaos, após o
+                        incidente com os "fracassos", foi atingida em cheio por uma energia dissipada por Amelia, que
+                        não só prolongou sua longevidade, como lhe deu um estranho poder de controlar marionetes. Sempre
+                        demonstrou uma paixão por Arthur, logo assim que soube de seu plano, decidiu que colaboraria com
+                        ele independente de qual rumo isso iria tomar. Seu sonho de reinar Alvani ao lado de Arthur se
+                        torna um pesadelo ao conhecer Dokan, um cara que destroi cada marionete de Morgana sem dó nem
+                        piedade, a única coisa que ela sabe é que se as marionetes não o pararem, ele não vai parar
+                        nela.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-30">
+                    <img src="./src/imagens/personagens/raio/Sandy.png" alt="">
+                    <h1>Sandy</h1>
+                    <p>Desde pequena, já tinha uma enorme facilidade para controlar a magia de Raio. Decidiu se
+                        especializar em uma mistura de boxe com tae-kwon-do e focar sua magia apenas para potencializar
+                        seus ataques. Algo que deu muito certo, pois está sempre entre os melhores da arena, sempre
+                        disputando o título de campeão com Alec. Miguel quer muito que ela entre para a guilda "Escudo
+                        da Justiça", mas por enquanto ela só quer saber de ser a melhor da arena.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-31">
+                    <img src="./src/imagens/personagens/raio/Vander.png" alt="">
+                    <h1>Vander</h1>
+                    <p>Fundador da Delegacia Policial de Alvani. Detém a patente mais alta, a de Marechal. Suas ações
+                        estão voltadas em descobrir a origem das fissuras carregadas com energia do Chaos, organizando
+                        várias equipes e, inclusive, agentes disfarçados. Graças ao Matt, esse caso parece estar mais
+                        perto de uma solução.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+
+
+            </div>
+            <div class="informacoes">
+                <ul>TIPO TERRA/NATUREZA                    
+                    <li><a href="#personagem-32">Angelica</a></li>
+                    <li><a href="#personagem-33">Berryan</a></li>
+                    <li><a href="#personagem-34">Coralina</a></li>
+                    <li><a href="#personagem-35">D. Joe</a></li>
+                    <li><a href="#personagem-36">Flora</a></li>
+                    <li><a href="#personagem-37">Kenshin</a></li>
+                    <li><a href="#personagem-38">Matt</a></li>
+                    <li><a href="#personagem-39">Taika</a></li>
+                </ul>
+                <div class="personagem" id="personagem-32">
+                    <img src="./src/imagens/personagens/terra/Angelica.png" alt="">
+                    <h1>Angelica</h1>
+                    <p>Angelica nasceu num período de guerra, com isso tornou-se uma pessoa má que não acreditava em
+                        herois, isso até conhecer Johan. Depois de desafiá-lo para uma luta e perder, pensou que sua
+                        vida acabaria ali, mas ele lhe deu uma segunda chance, oferecendo uma vaga entre os "Grandes
+                        Herois de GF". Ela ficou tão feliz com aquilo que acabou se apaixonando pelo heroi. Atualmente
+                        os dois fazem missões juntos, com Johan precisando intervir de vez em quando para que Angelica
+                        não tenha uma recaída.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-33">
+                    <img src="./src/imagens/personagens/terra/Berryan.png" alt="">
+                    <h1>Berryan</h1>
+                    <p>Um cientista focado em pesquisar as partículas mágicas abundantes em Alvani. Graças aos seus
+                        estudos e a ajuda do ferreiro D. Joe, conseguiu criar muitos equipamentos mágicos, que auxiliam
+                        as pessoas no dia a dia. Durante uma de suas experiências com as partículas, uma explosão o
+                        atingiu em cheio, tornando-se parte humano e parte golem de lama, no entanto, apesar da
+                        alteração na aparência, ainda consegue dar continuidade aos experimentos.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-34">
+                    <img src="./src/imagens/personagens/terra/Coralina.png" alt="">
+                    <h1>Coralina</h1>
+                    <p> Descendente de uma família nobre, Coralina sempre se dedicou à literatura e ao teatro, se
+                        tornando famosa até mesmo em cidades vizinhas, tanto por sua forma de atuar quanto pelas lendas
+                        que conta, que muitos acreditam serem reais. Um certo dia, ela cansou dessa vida de famosa e
+                        decidiu que faria algo diferente, neste momento Miguel chegou a cidade ao lado de Lina. A garota
+                        chamou sua atenção, então ela se ofereceu para cuidar da Magimal recém chegada, como se fosse
+                        sua filha. Mais tarde, também acaba entrando para o "Escudo da Justiça".</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-35">
+                    <img src="./src/imagens/personagens/terra/D. Joe.png" alt="">
+                    <h1>D. Joe</h1>
+                    <p>Nasceu com uma anomalia genética que impediu a formação de um de seus braços, mas não se deixou
+                        abater e criou sua própria prótese, que não apenas serve para ajudar em seu trabalho, como
+                        também para caso necessite lutar. Ficou conhecido por suas habilidades como ferreiro, criando as
+                        mais variadas ferramentas mágicas, inclusive armas, junto ao Dr. Berryan. A demanda por
+                        ferramentas é tão alta que, para não parar o serviço, sua irmã, D. Ana, está sempre coletando os
+                        materiais necessários.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-36">
+                    <img src="./src/imagens/personagens/terra/Flora.png" alt="">
+                    <h1>Flora</h1>
+                    <p>Era uma criança de rua até ser escolhida para os experimentos de criação do super humano, porém a
+                        rainha Anne se impressionou com suas habilidades de luta, então decidiu torná-la membro da
+                        guarda real. Certo dia, conheceu Lina, com quem desenvolveu um laço. Durante o incidente do
+                        Chaos, foi atingida pela energia de Amelia, mas resistiu aos efeitos e foi capaz de colocar Lina
+                        adormecida em uma das máquinas antes de cair inconsciente. Acordou alguns anos depois como a
+                        rainha das fadas, as únicas criaturas mágicas que não foram criadas em laboratório. Mesmo 500
+                        anos depois ainda mantém uma aparência jovem, porém não se sabe se foi o poder das fadas ou do
+                        Chaos que aumentou sua longevidade.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-37">
+                    <img src="./src/imagens/personagens/terra/Kenshin.png" alt="">
+                    <h1>Kenshin</h1>
+                    <p>Membro da DPA, mais especificamente da divisão de elite "Soul Warriors". Segue o caminho do
+                        Samurai e não costuma entrar em lutas desnecessárias. É muito habilidoso na esgrima, tanto que
+                        ao conhecer Johnny, este já se auto declarou seu rival e, apesar de não ligar muito, decidiu
+                        aceitar essa rivalidade para se divertir um pouco. Atualmente os dois estão liderando uma
+                        invasão à ilha do Chaos, para dar um fim no incidente das fissuras.
+                    </p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-38">
+                    <img src="./src/imagens/personagens/terra/Matt.png" alt="">
+                    <button><a href="#top">Voltar ao topo</a></button>
+                    <h1>Matt</h1>
+                    <p>Membro disfarçado da Delegacia Policial de Alvani (D.P.A.), lhe foi dada a missão de investigar
+                        estranhas fissuras carregadas de energia do Chaos, que afetam a biodiversidade das regiões onde
+                        aparecem. O problema é que elas podem surgir em qualquer lugar, inclusive em oceanos. Para
+                        solucionar esse problema, decidiu doar uma das armas que estava em posse da DPA para Letty e,
+                        também, lhe deu um navio para incentivar o sonho dela de se tornar pirata e, em troca, ele faria
+                        parte de sua tripulação. Para ajudar em sua missão, Matt conta com o "Pincel da Criação", uma
+                        arma capaz de dar vida aos desenhos.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+                <div class="personagem" id="personagem-39">
+                    <img src="./src/imagens/personagens/terra/Taika.png" alt="">
+                    <h1>Taika</h1>
+                    <p>Durante uma expedição numa selva desconhecida, um casal acaba morrendo após o ataque de um Chaos,
+                        por sorte um bebê que estava num lugar bem escondido sobreviveu. Logo depois foi encontrada por
+                        um tigre fêmea que a adotou como filha. Mais tarde encontra uma Magimal com traços de tigre
+                        chamada Fudora, esta a ensina a falar e andar como um humano. Ao completar 14 anos, a tigre que
+                        a adotou acaba morrendo de velhice, então Fudora decide se tornar a nova mãe de Taika.
+                        Atualmente as duas são muito unidas e, aos poucos, vão fazendo contato com outros humanos.</p>
+                    <button><a href="#top">Voltar ao topo</a></button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

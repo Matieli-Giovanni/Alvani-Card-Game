@@ -1,0 +1,89 @@
+body {
+  font-family: "Work-Sans";
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color: rgb(32, 32, 32);
+}
+.imagem-topo {
+  display: flex;
+  width: 100%;
+  margin: 0 0;
+}
+
+.imagem-fundo {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;  
+  padding-left: 10px;
+  width: 93%;
+}
+.informacoes {
+  display: none;
+}
+.informacoes.ativa {
+  display: block;
+  margin-top: 20px;
+  height: 400px;
+  padding-right: 10px;
+  color: #ffffff;
+}
+.informacoes.ativa .imagem-intro {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.botoes-tipos {
+  display: flex;
+  margin-top: 20px;
+  gap: 45px;
+}
+
+.botoes-tipos .botao {
+  background-color: #0000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-color: #0000;
+}
+.botoes-tipos .botao.selecionado {
+  border-color: #1d8346;
+  background-color: #1d8346;
+}
+.informacoes h1 {
+  font-size: 25px;
+  color: #ffffff;
+  margin: 25px auto;
+}
+.informacoes p {
+  justify-content: space-evenly;
+  font-size: 15px;
+  color: #ffffff;
+  padding-bottom: 15px;  
+}
+.informacoes li{
+  padding-top: 20px;
+}
+.informacoes.ativa button{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 50px;
+  width: 100vw;
+  background-color: #0000;
+  border-color: #0000;
+}
+.personagem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 100px;
+}
